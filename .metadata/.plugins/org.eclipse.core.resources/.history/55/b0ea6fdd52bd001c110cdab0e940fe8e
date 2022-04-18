@@ -1,0 +1,25 @@
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+public class Lugar {
+	
+	private String nome;
+	private double avaliacao;
+	
+	
+	
+	public Lugar(String stringQualquer) {
+		this.nome = stringQualquer.toUpperCase();
+		
+	}
+
+
+
+	public void mostraNoMapa() throws IOException, URISyntaxException {
+		Desktop.getDesktop().browse(new URI("www.google.com/maps/search/?api=1&query="+nome));
+		
+	}
+	
+}

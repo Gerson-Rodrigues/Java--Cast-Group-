@@ -1,0 +1,23 @@
+import java.io.IOException;
+import java.net.URISyntaxException;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException, URISyntaxException {
+		
+		/*
+		String lugar = "MercadoGuarapari";
+		Double avaliacao = 5d/2d;
+		
+		System.out.println(lugar);
+		System.out.println(avaliacao);
+		
+		mostrarLugarNoMapa(lugar);*/
+		
+		//Lugar loja = new Lugar("BazarDoBaxo");
+		//loja.mostraNoMapa();
+		Lugar objetoLugar = new Lugar("ParqueIndioJari");
+		//objetoLugar.mostraNoMapa("bazar do baxo");
+		objetoLugar.mostraNoMapa();
+	}
+}

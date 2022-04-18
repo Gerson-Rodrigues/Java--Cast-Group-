@@ -1,0 +1,26 @@
+package variavel;
+
+import java.util.Scanner;
+
+public class LacoFor {
+	
+	public static void main(String[] args) {
+		
+		/* for(declaração_inicial; expressão_lógica; salto){
+			instrução 1
+			instrução 2
+		
+			}*/
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Até quanto que contar o 'i'? ");
+		int o = ler.nextInt();
+		
+		for(int i = 0; i <= o; ++i) {
+			System.out.println("Imprime: "+i);
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+//Pacote em que a classe está contida
+package execucao;
+
+import entidade.Aluno;
+
+/*sempre que uma classe utilizar uma classe de outro pacote, 
+ * esta deve ser importada*/
+
+//import  entidade.Aluno; //reconhece as outras classes 
+
+public class Principal {
+	
+	//Uma classe de execucação requer um método de 
+	public static void main(String[] args) {
+		// criar objeto  de classe aluno
+		Aluno a1 = new Aluno();
+		//atribuinda valores a estes objetos
+		a1.nome = "Jessica";
+		a1.idade = 25;
+		a1.nota1 = 7.5;
+		a1.nota2 = 10.0;
+		
+		//imprimmiros dados
+		System.out.println("Nome: "+ a1.nome);
+		
+	}
+
+}

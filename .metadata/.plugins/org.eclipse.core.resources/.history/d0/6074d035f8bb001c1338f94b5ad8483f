@@ -1,0 +1,20 @@
+package entidade;
+/*classe carro representa uma entidade.
+ * Esse tipo de classe deve seguir um padrão JAVABEAN
+ * Dessa forma, não deve ser permitidi o acesso 
+ * direto aos atributos. 
+ * 
+ * ENCAPSULAMENTO - Garantir a integridade dos dados armazenados em um atributo  
+ * limitando o acesso a ele, os atributos serão privados*/
+public class Carro {
+	
+	private String modelo;
+	private int ano;
+	private String cor;
+	private double preco;
+	
+	// entrada SET
+	
+	// saida GET
+
+}

@@ -1,0 +1,14 @@
+package variavel;
+/*Escreva um programa em java para ler as dimensões de um retângulo (base e altura), 
+ *calcular e escrever a área do retângulo. 
+ * */
+public class Fixacao3 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

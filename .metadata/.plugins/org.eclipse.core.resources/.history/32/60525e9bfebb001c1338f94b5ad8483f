@@ -1,0 +1,46 @@
+package execucao;
+
+import entity.Funcionario;
+public class ExecucaoFuncionario {
+	
+	public static void main(String[] args) {
+		
+		Funcionario func1 =new Funcionario();
+		Funcionario func2 =new Funcionario();
+		Funcionario func3 =new Funcionario();
+		
+		func1.setNome("Carlos");
+		func1.setRg(5092900215);
+		func1.setCpf(01233519018);
+		func1.setSalario(2227.10);
+		
+		func2.setNome("Julio R.");
+		func2.setRg(45678114587);
+		func2.setCpf(014785415841);
+		func2.setSalario(1457.90);
+		
+		func3.setNome("Jorge da Borracharia");
+		func3.setRg(4577412368);
+		func3.setCpf(35214781254);
+		func3.setSalario(1804.30);
+	
+		
+		System.out.println("Nome: "+f1.getNome());
+		System.out.println("RG: "+f1.getRg());
+		System.out.println("Cpf: "+f1.getCpf());
+		System.out.println("");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+	}
+	
+	
+}

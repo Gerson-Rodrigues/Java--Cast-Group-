@@ -1,0 +1,10 @@
+//Pacote em que a classe está contida
+package execucao;
+/*sempre que uma classe utilizar uma classe de outro pacote, 
+ * esta deve ser importada*/
+
+import  entidade.Aluno; //reconhece as outras classes 
+
+public class Principal {
+
+}

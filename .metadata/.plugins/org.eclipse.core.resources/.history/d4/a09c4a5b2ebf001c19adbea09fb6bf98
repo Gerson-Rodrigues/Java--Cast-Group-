@@ -1,0 +1,29 @@
+package variavel;
+
+import java.util.Scanner;
+
+/*9)	O custo de um carro novo ao consumidor é a soma do custo de fábrica com a 
+ * porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que o 
+ * percentual do distribuidor seja de 28% e os impostos de 45%, escrever um programa em java 
+ * para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor.
+ */
+public class Fixacao7 {
+
+	public static void main(String[] args) {
+		
+		Scanner calc = new Scanner(System.in);
+		System.out.print("Qual o valor de custo da fabrica? R$");
+		double preco_fabrica = calc.nextDouble();
+		
+		double distribuidor = preco_fabrica+preco_fabrica*0.28;
+		System.out.printf("R$%.2f",distribuidor);
+		
+		System.out.printf("O preço de revenda do distribuidor é de: R$%.2f \n", distribuidor);
+		
+		double imp = distribuidor+(distribuidor*0.45);
+		System.out.printf("Valor final ao cosumidor é de: R$%.2f",imp);
+		
+		
+	}
+
+}

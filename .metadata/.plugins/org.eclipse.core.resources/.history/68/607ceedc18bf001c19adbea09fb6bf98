@@ -1,0 +1,11 @@
+package variavel;
+/*1) Escreva um programa em java que o valor 10 em uma variável 
+ * */
+public class Fixacao1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

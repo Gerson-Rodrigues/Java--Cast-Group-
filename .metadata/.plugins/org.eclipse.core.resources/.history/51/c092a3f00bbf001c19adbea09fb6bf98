@@ -1,0 +1,24 @@
+package variavel;
+
+public class Variavel {
+
+		/*$ Tipos de dados Primitivos
+		 * boolean
+		 * caracter
+		 * numero inteiro
+		 * numero com ponto flutuante*/ 
+	
+	
+	public static void main(String[] args) {
+
+		int i = 5;
+		System.out.println("O valor da Variável i é: "+ i);
+
+		int j = i++;
+		int k = ++i;
+		System.out.println("O valor da Variável j é: "+ j);
+		System.out.println("O valor da Variável k é: "+ k);
+
+	}
+
+}

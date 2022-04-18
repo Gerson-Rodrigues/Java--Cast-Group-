@@ -1,0 +1,18 @@
+package variavel;
+
+import javax.swing.JOptionPane;
+
+public class ExemploJOptionPane {
+
+	
+	public static void main(String[] args) {
+		
+		String nome = " ";
+		
+		nome = JOptionPane.showInputDialog("Inseri o seu nome: "+nome);
+		
+		System.out.println("Olá "+nome );
+		
+		
+	}
+}

@@ -1,0 +1,19 @@
+package execucao;
+import entity.Funcionario;
+public class Funcionario {
+	
+	public static void main(String[] args) {
+		
+		Funcionario f1 =new Funcionario();
+		Funcionario f2 =new Funcionario();
+		Funcionario f3 =new Funcionario();
+		
+		f.setNome("");
+		f.setRg();
+		f.setCpf();
+		f.setSalario();
+		
+	}
+	
+	
+}

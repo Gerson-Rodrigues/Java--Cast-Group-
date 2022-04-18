@@ -1,0 +1,10 @@
+package execucao;
+
+import entidade.Carro;
+
+public class ExecucaoCarro {
+	// main + control = barra de espaço
+	public static void main(String[] args) {
+		
+	}
+}

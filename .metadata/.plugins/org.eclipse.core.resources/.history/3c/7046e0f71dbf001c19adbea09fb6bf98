@@ -1,0 +1,13 @@
+package variavel;
+/*7)	Escreva um programa em java para ler o número total de eleitores 
+ * de um município, o número de votos brancos, nulos e válidos. Calcular e 
+ * escrever o percentual que cada um representa em relação ao total de eleitores. 
+ * */
+public class Fixacao5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package variavel;
+
+public class Variavel {
+
+		/*$ Tipos de dados Primitivos
+		 * boolean
+		 * caracter
+		 * numero inteiro
+		 * numero com ponto flutuante*/ 
+	
+	char c = 'f';
+	
+	public static void main(String[] args) {
+		char c = 'F';
+		System.out.println("O valor da Variável c é: "+ c);
+
+	}
+
+}

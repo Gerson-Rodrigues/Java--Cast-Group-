@@ -1,0 +1,13 @@
+package execucao;
+
+import entidade.Carro;
+
+public class ExecucaoCarro {
+	// main + control = barra de espaço
+	public static void main(String[] args) {
+		// instância  o objeto
+		// classe variavvel = new Classe
+		
+		Carro c1 = new Carro();
+	}
+}

@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Exe_1 {
+
+	public static void main(String[] args) {
+		//Crie um algoritmo que leia um número diferente de zero e diga se este número é positivo ou negativo.
+		
+		
+		Scanner numero = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		
+		int N = numero.nextInt ();
+		
+		
+			if (N > 0); {
+				System.out.println("Numero Positivo");
+		 }
+			if (N < 0); {
+				System.out.println("Numero Negativo");
+		 }
+	}
+
+}

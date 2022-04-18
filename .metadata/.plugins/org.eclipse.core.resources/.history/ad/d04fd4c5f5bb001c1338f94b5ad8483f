@@ -1,0 +1,7 @@
+package entidade;
+/*classe carro representa uma entidade.
+ * Esse tipo de classe deve seguir um padrão JAVABEAN
+ * Dessa forma, não deve */
+public class Carro {
+
+}

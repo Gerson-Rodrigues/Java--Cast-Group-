@@ -1,0 +1,18 @@
+package variavel;
+
+public class ControleIfElseIf {
+
+	
+	public static void main(String[] args) {
+		//entrada
+		int nota =92;
+		//processamento + saída
+		if (nota >= 90) {
+			System.out.println("Excelente!!!");
+		}else if{
+			System.out.println("");
+		}else {
+			System.out.println("Reprovado!!!");
+		}
+	}
+}

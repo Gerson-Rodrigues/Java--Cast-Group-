@@ -1,0 +1,49 @@
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lugar {
+	
+	private String nome;
+	private List<Integer> avaliacoes = new ArrayList<Integer>();
+	
+		
+	
+	public String getNome() {
+		return nome;
+	}
+
+
+	public void setNome(String nome) {
+		this.nome = nome.toUpperCase();
+	}
+
+
+	public Lugar(String stringQualquer) {
+		this.nome = stringQualquer.toUpperCase();
+		
+	}
+
+
+	public void mostraNoMapa() throws IOException, URISyntaxException {
+		String nomeUrl = this.nome.replace(" ", "%20");
+		Desktop.getDesktop().browse(new URI("www.google.com/maps/search/?api=1&query="+nomeUrl));
+		
+	}
+
+	public void addAvaliacao(int avaliacao) {
+		avaliacoes.add(avaliacao);
+	}
+
+
+	public Integer totalDeAvaliacoes() {
+		
+		return this.avaliacoes.size();
+	}
+	
+
+
+}

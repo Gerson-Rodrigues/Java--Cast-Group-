@@ -1,0 +1,30 @@
+package variavel;
+
+import java.util.Scanner;
+
+/*8)	Escreva um programa em java para ler o salário mensal atual de 
+ * um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário. 
+ * */
+public class Fixacao6 {
+
+	public static void main(String[] args) {
+		
+		Scanner cont = new Scanner(System.in);
+		
+		double novo_sal;
+		
+		System.out.println("digite seu salário atual: ");
+		double sal_atual = cont.nextDouble();
+		System.out.println("Digite o percentual de reajuste: ");
+		double reajuste = cont.nextDouble();
+		
+		novo_sal = sal_atual*reajuste;
+		
+		System.out.printf("Seu salário atual será de: R$ %.2f", novo_sal);
+		
+		
+		
+		
+	}
+
+}

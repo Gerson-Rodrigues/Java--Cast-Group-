@@ -1,0 +1,46 @@
+package execucao;
+
+
+public class Funcionario {
+	
+	public static void main(String[] args) {
+		
+		Funcionario f1 =new Funcionario();
+		Funcionario f2 =new Funcionario();
+		Funcionario f3 =new Funcionario();
+		
+		f1.setNome("Carlos");
+		f1.setRg(5092900215);
+		f1.setCpf(01233519018);
+		f1.setSalario(2227.10);
+		
+		f2.setNome("Julio R.");
+		f2.setRg(45678114587);
+		f2.setCpf(014785415841);
+		f2.setSalario(1457.90);
+		
+		f3.setNome("Jorge da Borracharia");
+		f3.setRg(4577412368);
+		f3.setCpf(35214781254);
+		f3.setSalario(1804.30);
+	
+		
+		System.out.println("Nome: "+f1.getNome());
+		System.out.println("RG: "+f1.getRg());
+		System.out.println("Cpf: "+f1.getCpf());
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+	}
+	
+	
+}

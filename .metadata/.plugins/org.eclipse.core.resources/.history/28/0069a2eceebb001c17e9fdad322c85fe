@@ -1,0 +1,11 @@
+package entidade;
+
+public class aluno {
+	//Attributos da Classe 
+	public String nome;
+	public int idade;
+	
+	
+	
+	
+}

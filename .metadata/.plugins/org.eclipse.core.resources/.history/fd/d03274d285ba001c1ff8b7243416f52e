@@ -1,0 +1,36 @@
+import java.util.*;
+public class Exe_8 {
+
+	public static void main(String[] args) {
+		/* Escreva um algoritmo para ler o número total de eleitores de um município, 
+		 * o número de votos brancos, nulos e válidos. Calcular e escrever o percentual 
+		 * que cada um representa em relação ao total de eleitores.
+		 */
+		Scanner voto = new Scanner(System.in);
+		
+		System.out.println("Digite o número de votos brancos: ");
+		int branco = voto.nextInt();
+		
+		System.out.println("Digite o numero de votos nulos: ");
+		int nulo = voto.nextInt();
+		
+		System.out.println("Digite os numero de votos validos: ");
+		int valido = voto.nextInt();
+		
+		
+		int total = 100*(valido+nulo+branco);
+		
+		double perc_branco = total/branco;
+		
+		double perc_nulo = total/nulo;
+		
+		double perc_valido = total/valido;
+		
+		System.out.println(" nulo:"+perc_nulo+"%\n valido: "+ perc_valido +"%\n branco: "+ perc_branco+"%");
+		
+		
+		
+
+	}
+
+}
