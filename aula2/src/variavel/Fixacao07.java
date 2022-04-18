@@ -15,12 +15,12 @@ public class Fixacao07 {
 		System.out.print("Qual o valor de custo da fabrica? R$");
 		double preco_fabrica = calc.nextDouble();
 		
-		double distribuidor = preco_fabrica+preco_fabrica*0.28;
+		double distribuidor = preco_fabrica+(preco_fabrica*0.28);
 		//System.out.printf("R$%.2f",distribuidor);
 		
 		System.out.printf("O preço de revenda do distribuidor é de: R$%.2f \n", distribuidor);
 		
-		double imp = distribuidor+distribuidor*0.45;
+		double imp = distribuidor+(distribuidor*0.45);
 		System.out.printf("Valor final ao cosumidor é de: R$%.2f",imp);
 		
 		
