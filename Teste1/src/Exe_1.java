@@ -19,6 +19,7 @@ public class Exe_1 {
 			}else {
 				System.out.println("numero igual a zero");
 		 }
+			num.close();
 	}
 
 }

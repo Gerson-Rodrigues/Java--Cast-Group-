@@ -10,8 +10,15 @@ import java.util.Scanner;
 public class Fixacao08 {
 
 	public static void main(String[] args) {
-		
+		double sal=0, ncar=0, co=0, vtvenda=0, sal_tot=0;
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite seu salário: R$");
+		double sal = sc.nextDouble();
+		System.out.println("Quantidade de carros vendido? ");
+		double ncar = sc.nextDouble();
+		System.out.println("Qual sua comissão: R$");
+		double co  = sc.nextDouble();
 		
 		
 	}
